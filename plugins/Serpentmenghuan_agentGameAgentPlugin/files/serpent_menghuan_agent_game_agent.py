@@ -1,5 +1,5 @@
 from serpent.game_agent import GameAgent
-
+from serpent.input_controller import KeyboardKey
 
 class Serpentmenghuan_agentGameAgent(GameAgent):
 
@@ -15,3 +15,11 @@ class Serpentmenghuan_agentGameAgent(GameAgent):
 
     def handle_play(self, game_frame, game_frame_pipeline):
         print("hello world!")
+        for i, game_frame in enumerate(self.game_frame_buffer.frames):
+            self.visual_debugger.store_image_data(
+                game_frame.frame,
+                game_frame.frame.shape,
+                str(i)
+            )
+        self.input_controller.tap_key(KeyboardKey.KEY_RIGHT)
+        
