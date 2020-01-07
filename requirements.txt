@@ -12,7 +12,7 @@ mss
 
 # Input
 PyAutoGUI
-#Çå»ªµÄwin32gui
+#win32gui
 pywin32
 win32gui
 sneakysnek
@@ -22,3 +22,7 @@ autobahn
 
 # Misc
 editdistance
+
+crossbar
+
+msgpack

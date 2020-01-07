@@ -1,6 +1,6 @@
 redis:
     host: 127.0.0.1
-    port: 6379
+    port: 32768
     db: 0
 
 analytics:
@@ -11,6 +11,7 @@ analytics:
         username: serpent
         password: serpent
     topic: ANALYTICS_TOPIC
+    broadcast: false
 
 frame_handlers:
     COLLECT_FRAMES_FOR_CONTEXT:
@@ -30,3 +31,12 @@ visual_debugger:
         - "1"
         - "2"
         - "3"
+crossbar:
+    host: 127.0.0.1
+    port: 9999
+    realm: serpent
+    auth:
+        username: serpent
+        password: serpent
+    topic: ANALYTICS_TOPIC
+    broadcast: false
