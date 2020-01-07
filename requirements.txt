@@ -1,0 +1,24 @@
+# Serpent only supports Windows through Anaconda. These are the missing packages from the Anaconda Distribution
+
+# Plugins
+offshoot
+
+# Redis
+redis
+aioredis
+
+# Frame Capture
+mss
+
+# Input
+PyAutoGUI
+#Çå»ªµÄwin32gui
+pywin32
+win32gui
+sneakysnek
+
+# Network
+autobahn
+
+# Misc
+editdistance

@@ -1,0 +1,19 @@
+{
+    "plugins": {
+        "SerpentmenghuanGamePlugin": {
+            "name": "SerpentmenghuanGamePlugin",
+            "version": "0.1.0",
+            "files": [
+                {
+                    "path": "serpent_menghuan_game.py",
+                    "pluggable": "Game"
+                }
+            ],
+            "plugins": [],
+            "libraries": [],
+            "config": {
+                "fps": 2
+            }
+        }
+    }
+}
