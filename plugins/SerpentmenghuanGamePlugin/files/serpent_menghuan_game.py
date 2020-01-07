@@ -14,7 +14,7 @@ class SerpentmenghuanGame(Game, metaclass=Singleton):
 
         kwargs["window_name"] = "梦幻西游 ONLINE"
 
-        
+        kwargs["current_work_directory"] = u"D:/梦幻西游/"
         
         #kwargs["executable_path"] = u"C:/Users/Administrator/Desktop/梦幻西游.lnk"
         kwargs["executable_path"] = u"D:/梦幻西游/my.exe"

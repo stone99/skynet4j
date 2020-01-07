@@ -1,2 +1,4 @@
 SerpentmenghuanGamePlugin:
   fps: 2
+Serpentmenghuan_agentGameAgentPlugin:
+  frame_handler: PLAY

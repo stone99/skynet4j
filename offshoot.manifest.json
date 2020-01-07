@@ -14,6 +14,21 @@
             "config": {
                 "fps": 2
             }
+        },
+        "Serpentmenghuan_agentGameAgentPlugin": {
+            "name": "Serpentmenghuan_agentGameAgentPlugin",
+            "version": "0.1.0",
+            "files": [
+                {
+                    "path": "serpent_menghuan_agent_game_agent.py",
+                    "pluggable": "GameAgent"
+                }
+            ],
+            "plugins": [],
+            "libraries": [],
+            "config": {
+                "frame_handler": "PLAY"
+            }
         }
     }
 }
