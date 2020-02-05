@@ -40,3 +40,6 @@ crossbar:
         password: serpent
     topic: ANALYTICS_TOPIC
     broadcast: false
+input_controller:
+    redis_key: SERPENT:INPUTS
+    backend: DEFAULT

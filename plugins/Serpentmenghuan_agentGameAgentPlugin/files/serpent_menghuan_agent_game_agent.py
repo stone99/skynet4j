@@ -16,6 +16,8 @@ class Serpentmenghuan_agentGameAgent(GameAgent):
     def handle_play(self, game_frame, game_frame_pipeline):
         print("hello world!")
         for i, game_frame in enumerate(self.game_frame_buffer.frames):
+            print(game_frame.frame.dtype)
+            print(len(game_frame.frame.tobytes()))
             self.visual_debugger.store_image_data(
                 game_frame.frame,
                 game_frame.frame.shape,
